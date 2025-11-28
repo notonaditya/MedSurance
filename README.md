@@ -33,6 +33,8 @@ Ensure you have the following installed:
 
 ### Backend Setup
 1. Clone the repository:
+    ```bash
+   https://github.com/notonaditya/MedSurance.git
    ```
 2. Install dependencies:
    ```bash
