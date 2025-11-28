@@ -70,7 +70,6 @@ Ensure you have the following installed:
    ```
    - This will start the frontend, allowing you to interact with the chatbot UI.
 
-![Demo](https://github.com/PrakharJain1509/MedSurance/blob/main/assets/Screenshot%202025-03-02%20at%2012.09.26%E2%80%AFAM.png)
 
 ### Running Hospital Management Frontend
 1. Navigate to the frontend folder:
@@ -85,18 +84,6 @@ Ensure you have the following installed:
    ```bash
    npm start
    ```
-
-![Demo](https://github.com/PrakharJain1509/MedSurance/blob/main/assets/Screenshot%202025-03-02%20at%2012.06.27%E2%80%AFAM.png)
-![Demo](https://github.com/PrakharJain1509/MedSurance/blob/main/assets/Screenshot%202025-03-02%20at%2012.06.40%E2%80%AFAM.png)
-
-## Medical Reports Generated
-![Demo](https://github.com/PrakharJain1509/MedSurance/blob/main/assets/Screenshot%202025-03-02%20at%2012.14.28%E2%80%AFAM.png)
-![Demo](https://github.com/PrakharJain1509/MedSurance/blob/main/assets/Screenshot%202025-03-02%20at%2012.15.29%E2%80%AFAM.png)
-![Demo](https://github.com/PrakharJain1509/MedSurance/blob/main/assets/Screenshot%202025-03-02%20at%2012.15.48%E2%80%AFAM.png)
-
-## Patient Data Dashboard
-![Demo](https://github.com/PrakharJain1509/MedSurance/blob/main/assets/Screenshot%202025-03-02%20at%2012.16.58%E2%80%AFAM.png)
-
 ## How It Works
 - The **chatbot backend** (`app_with_tts_with_flask.py`) powers the AI-driven medical assistant.
 - The **hospital management backend** (`app.py`) handles hospital data and patient records.
