@@ -1,0 +1,118 @@
+/* Login.css */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--gray-50) 0%, var(--gray-100) 100%);
+    animation: fadeIn var(--transition-normal);
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    animation: slideIn var(--transition-normal);
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    color: var(--gray-900);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--gray-200);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all var(--transition-fast);
+  }
+  
+  .input-field:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+    outline: none;
+  }
+  
+  .submit-button {
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+  }
+  
+  .submit-button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+  }
+  
+  .submit-button:active {
+    transform: translateY(1px);
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color var(--transition-fast);
+  }
+  
+  .register-link:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+  }
+  .auth-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    animation: slideInUp 0.5s ease;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 0.875rem 1.25rem;
+    border: 2px solid var(--gray-200);
+    border-radius: 0.75rem;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+  }
+  
+  .submit-button {
+    background: var(--primary);
+    color: white;
+    padding: 0.875rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.3);
+  }

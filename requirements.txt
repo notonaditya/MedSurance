@@ -1,0 +1,16 @@
+Flask
+requests
+python-dotenv
+edge-tts
+asyncio
+flask_cors
+flask_sqlalchemy
+pyjwt
+torch
+PIL
+numpy
+pandas
+torchvision
+tensorflow
+scikit-learn
+efficientnet_pytorch

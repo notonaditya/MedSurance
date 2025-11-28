@@ -1,0 +1,51 @@
+{
+  "age": "21",
+  "blood_pressure": "120",
+  "blood_sugar_levels": "120",
+  "cholesterol_levels": "120",
+  "drinking_habit": "I dont drink",
+  "gender": "I am a male",
+  "height": "182 CM",
+  "name": "Abhishek Saraf",
+  "patient_history": {
+    "ct_scans": [
+      {
+        "image_path": "/Users/prakharjain/WebstormProjects/NMIMS/DBMS_FrontendandBackend2/backend/uploads/1740282706.5947_c3d2b521cbde4dee786560055f7598_big_gallery.jpg"
+      }
+    ],
+    "metabolic_reports": [
+      {
+        "age": 21,
+        "albuminuria": 1,
+        "blood_glucose": 1,
+        "bmi": 21,
+        "hdl": 1,
+        "sex": "M",
+        "triglycerides": 1,
+        "ur_alb_cr": 1,
+        "uric_acid": 1,
+        "waist_circ": 120
+      }
+    ],
+    "organ_reports": [
+      {
+        "age": 12,
+        "bd2": 1,
+        "blood_pressure": "1",
+        "bmi": 12,
+        "pl": 1,
+        "prg": 1,
+        "sk": 1,
+        "ts": 1
+      }
+    ],
+    "patient_info": {
+      "aadhar": "499642094850",
+      "id": 2,
+      "username": "abhishek"
+    }
+  },
+  "smoking_habit": "I dont smoke",
+  "temperature": "36\u00b0C",
+  "weight": "62 kg"
+}

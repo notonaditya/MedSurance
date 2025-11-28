@@ -1,0 +1,106 @@
+.chat-interface {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height */
+  padding: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff); /* Soft gradient background */
+  font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+/* Chat history section */
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  border-radius: 12px; /* Rounded corners */
+  padding: 15px;
+  background-color: #ffffff; /* Clean white background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border: none; /* Remove border for a cleaner look */
+}
+
+/* Message styles */
+.message {
+  margin-bottom: 12px;
+  line-height: 1.5;
+  padding: 12px 18px;
+  border-radius: 12px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+/* Assistant's message */
+.message.assistant {
+  background: #007BFF;
+  color: white;
+  align-self: flex-start;
+  border-radius: 12px 12px 12px 0; /* Soft rounded speech bubble */
+}
+
+/* User's message */
+.message.user {
+  background: #28a745;
+  color: white;
+  align-self: flex-end;
+  border-radius: 12px 12px 0 12px; /* Soft rounded speech bubble */
+}
+
+/* Chat input area */
+.chat-input {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field */
+.chat-input input {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #f1f1f1;
+}
+
+/* Send button */
+.chat-input button {
+  margin-left: 10px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: linear-gradient(to right, #007BFF, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.chat-input button:hover {
+  background: linear-gradient(to right, #0056b3, #003c82);
+  transform: scale(1.05);
+}
+
+/* Assistant's message */
+.message.assistant {
+  background: #007BFF;
+  color: white;
+  align-self: flex-start;
+  border-radius: 12px 12px 12px 0; /* Soft rounded speech bubble */
+  text-align: left;
+}
+
+/* User's message */
+.message.user {
+  background: #28a745;
+  color: white;
+  align-self: flex-end;
+  border-radius: 12px 12px 0 12px; /* Soft rounded speech bubble */
+  text-align: right;
+}
+

@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* src/App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.avatar-container {
+  flex: 3; /* 75% of the width */
+  border-right: 1px solid #ccc;
+  height: 100%;
+}
+
+.chat-container {
+  flex: 1; /* 25% of the width */
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+
+.myheader {
+  background: linear-gradient(90deg, #4a90e2, #007aff); /* Smooth gradient */
+  color: white; /* Text color */
+  font-size: 45px; /* Larger font for header */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Add spacing inside */
+  border-bottom: 4px solid #0056b3; /* Strong bottom border */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+  font-family: 'Monaco', sans-serif; /* Clean font */
+  letter-spacing: 1px;
+  border-radius: 30px; /* Slight spacing for readability */
+}
+
+
+.headerss {
+  background: radial-gradient(circle, #fa0606, #ff2727); /* Warm gradient */
+  color: #fff; /* White text for contrast */
+  font-size: 26px; /* Slightly larger font */
+  font-weight: 600; /* Semi-bold for elegance */
+  text-align: left; /* Align text to the left */
+  padding: 25px 40px; /* Comfortable padding */
+  font-family: 'Georgia', serif; /* A classy serif font */
+  text-transform: uppercase; /* Uppercase for a stylish look */
+  word-spacing: 3px; /* More spacing for elegance */
+  letter-spacing: 1.5px; /* Enhance readability */
+  opacity: 0.9;
+  border-radius: 30px;/* Slight transparency for a soft feel */
+}

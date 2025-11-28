@@ -1,0 +1,135 @@
+/* PatientDashboard.css */
+.patient-dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease;
+  background-color: #f8fafc;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.scan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem;
+  color: #64748b;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.scan-card {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid #e2e8f0;
+}
+
+.scan-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-color: #3b82f6;
+}
+
+.scan-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.scan-info {
+  padding: 1.5rem;
+  background: white;
+}
+
+.scan-info p {
+  color: #1e40af;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.report-section {
+  margin-top: 3rem;
+}
+
+.report-section h2 {
+  color: #1e40af;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.report-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  border: 2px solid #e2e8f0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.report-card:hover {
+  transform: translateX(4px);
+  border-color: #3b82f6;
+}
+
+.report-card p {
+  padding: 0.75rem;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+  color: #1e40af;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-card p::before {
+  content: attr(data-label);
+  color: #64748b;
+  font-weight: normal;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .patient-dashboard {
+    padding: 1rem;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .report-card {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "heart_disease": {
+        "predicted_class": "normal",
+        "confidence": 83.98751020431519,
+        "class_probabilities": {
+            "adenocarcinoma": 14.7335844039917,
+            "large.cell.carcinoma": 0.2744365334510803,
+            "normal": 83.98751068115234,
+            "squamous.cell.carcinoma": 1.0044633150100708
+        }
+    },
+    "metabolic": {
+        "predicted_class": 1,
+        "probability": 1.0
+    },
+    "organ": {
+        "predicted_class": 1,
+        "probability": 0.9998346567153931
+    },
+    "insurance": {
+        "predicted_charge": 3.3422815799713135
+    },
+    "patient_info": {
+        "aadhar": "499642094850",
+        "id": 2,
+        "username": "abhishek"
+    },
+    "risk_assessment_score": 66.707275390625
+}
